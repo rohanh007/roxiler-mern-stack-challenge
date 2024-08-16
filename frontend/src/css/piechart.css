@@ -1,0 +1,45 @@
+.pcontainer {
+    margin-top: 350px;
+    /* margin-bottom: 20px; */
+    width: 100%;
+    height: 400px; 
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+  }
+  
+  .pheader {
+    width: 100%;
+    text-align: center;         
+    margin-bottom: 10px;
+  }
+  
+  .pchartContainer {
+    width: 40%;                     
+     height: 40%;                
+    display: flex;  
+    margin-top:230px; 
+    justify-content: center;    
+    align-items: center;    
+    /* margin-bottom: 20px;     */
+  }
+  
+  .ptitle {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .pchartContainer {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pchartContainer {
+      height: 200px;
+    }
+  }
+  

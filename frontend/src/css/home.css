@@ -1,0 +1,60 @@
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .navItems {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navItem {
+    margin-left: 1rem;
+  }
+  
+  .dashboardTitle {
+    margin-left: 2rem;
+    font-size: 1.25rem;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-right: 1rem;
+  }
+  
+  .contentArea {
+    flex: 1;
+  }
+  
+  .searchBar {
+    margin-left: 1rem;
+  }
+  
+  .dropdown {
+    margin-left: 1rem;
+  }
+  
